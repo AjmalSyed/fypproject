@@ -1,0 +1,338 @@
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+
+.top{
+	height:800px;
+  padding: 0;
+  outline: none;
+  border: none;
+    box-sizing: border-box;
+}
+.top:before,
+.top:after{
+    box-sizing: border-box;
+}
+
+
+body {
+  height:100%;
+  width:100%;
+}
+i {
+    font-size : 12px;
+    padding-right: 10px;
+    color: #aece61;
+}
+
+
+/* Footer */
+.footer {
+    position: relative;
+    background-color: #092746;
+    color: #7d7975;
+    padding: 95px 0 50px;
+    font-size:16px;
+}
+.footer p {
+    line-height:26px;
+    color : #fff;
+}
+.footer h5 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #aece61  ;
+    position: relative;
+    padding-bottom: 16px;
+}
+.footer h5:after {
+    content: '';
+    display: block;
+    margin: 5px 0 0;
+    width: 40%;
+    height: 1px;
+    background-color: #1e1d22 ;
+}
+
+.footer ul {
+    list-style: none;
+    line-height:35px;
+    margin: 0px;
+    color:#fff;
+    
+}
+.footer a {
+    color:# ;
+   
+}
+.footer a:hover {
+    color: #aece61 ;
+}
+
+/* Footer Logo */
+.foot-logo {
+    margin: 0px 0px 18px 0px;
+    padding: 0;
+}
+
+/*footer bottom */
+.footer-bottom {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-top: 1px solid #2f2f33 ;
+    background: #1e1d22  ;
+    
+}
+.copyright-text p {
+    color: #7d7975;
+    margin-top: 18px;
+    margin-bottom: 0;
+    font-size:15px;
+}
+
+.copyright-text a {
+    color: #7d7975;
+    margin: 0px 10px 0px 10px;
+    
+}
+.copyright-text a:hover {
+    color: #aece61  ;
+    
+    
+}
+/* Social Icons */
+
+.social-icons{
+    
+    margin: 0;
+    padding: 0;
+    font-size : 10px;
+}
+
+.social {
+    margin:7px 7px 7px 0px;
+    color:#fff;
+}
+
+
+#social-fb:hover {
+     color: #3B5998;
+     transition:all .25s;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+     transition:all .25s;
+ }
+ #social-gp:hover {
+     color: #d34836;
+     transition:all .25s;
+ }
+ #social-em:hover {
+     color: #f39c12;
+     transition:all .25s;
+ }
+ 
+ .footer-four > img {
+     width:80%;
+ }	
+
+header {
+  background-image:url('http://www.dizedesign.de/snippets/headerx.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  height:1000px;
+}
+
+.btn.btn-default.btn-lg {
+  letter-spacing:2px;
+}
+
+.btn-default {
+  background-image:none;
+  background-image:none;
+  background-image:none;
+  background-image:none;
+  background-repeat:no-repeat;
+  filter:none;
+  -webkit-filter:none;
+  filter:none;
+  border:1px solid #fefefe;
+  background-color:rgba(229,76,124,0.521569);
+  color:#fefefe;
+}
+
+.navbar-default {
+  border-bottom:#fefefe;
+}
+
+.btn-default:hover {
+  opacity:.4;
+  background-color:rgba(229,76,124,0.521569);
+  color:#fefefe;
+  border:1px solid #fefefe;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color:#fafafa;
+  background-color:none;
+}
+
+.navbar-brand.navbar-link {
+  color:#fefefe;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color:#000;
+  background-color:#fafafa;
+}
+
+
+
+.con{
+	margin: 4% auto;
+	width: 210px;
+	height: 140px;
+	position: relative;
+	perspective: 1000px;
+}
+#carousel{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+	width: 90%;
+	height: 50%px;
+	left: 10px;
+	top: 10px;
+	background: black;
+	overflow: hidden;
+	border: solid 5px black;
+}
+
+
+
+
+
+.mendi-social-networks {
+    width: 100%;
+    margin: 0;
+}
+.mendi-social-networks li {
+	float: left;
+	display: inline;
+	width: 25%;
+	color: #ffffff;
+	position: relative;
+}
+.mendi-social-networks li i {
+	font-size: 50px;
+	float: left;
+	width: 60px;
+}
+.mendi-social-networks li a {
+	color: #ffffff;
+	padding: 25px 65px 25px 40px;
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+
+}
+.mendi-social-networks li a:hover {
+     text-decoration:none;
+}
+.mendi-social-networks li p {
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	margin: 2px 0 0px;
+}
+.mendi-social-networks li .followers {
+	text-transform: uppercase;
+}
+.mendi-social-networks li:before {
+	position: absolute;
+	content: "\f105";
+	right: 30px;
+	top: 0;
+	bottom: 0;
+	height: 30px;
+	width: 30px;
+	border: 1px solid #ffffff;
+	border-radius: 30px;
+	margin: auto;
+	font-size: 18px;
+	font-family: FontAwesome;
+	color: #ffffff;
+	text-align: center;
+	line-height: 26px;
+}
+.mendi-social-networks li:hover:before {
+	background-color: #ffffff;
+	color: #999999;
+}
+.mendi-social-networks li.facebook {
+	background-color: #4d6bab;
+}
+.mendi-social-networks li.twitter {
+	background-color: #4ec6f8;
+}
+.mendi-social-networks li.googleplus {
+	background-color: #d34836;
+}
+.mendi-social-networks li.linkedin {
+	background-color: #248cc9;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+    box-sizing: border-box;
+}
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+html,
+body{
+	min-height: 100%;
+}
+body{
+	background-image: radial-gradient(mintcream 0%, lightgray 100%);
+}
+h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+}
+#poli{
+
+	background: url('../images/green.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center;
+}
+b{
+	color: #ffffff; font-family: 'Colonna MT'; font-size: 33px; font-weight: 1000; line-height: 50px; margin: 0 0 24px; text-align: center; text-transform: uppercase;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}
+.hover01 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 :hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
